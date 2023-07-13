@@ -6,7 +6,7 @@ Neste problema, você deverá exibir uma lista de 1 a 100, um em cada linha, com
 """
 
 list = []
-for item in range(1, 31):
+for item in range(0, 100):
     if item % 3 == 0:
         list.append("fizz")
         if item % 5 == 0:
