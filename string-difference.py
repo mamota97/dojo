@@ -3,6 +3,7 @@ Faça um programa que destaque a diferença entre duas string.
 Exemplo: Entradas: O pássaro amarelo caiu. O pássaro vermelho caiu.
 Saídas: O pássaro [amarel]o caiu. O pássaro [vermelh]o caiu.
 """
+
 string1 = str(input("digite uma frase: ")).split()
 string2 = str(input("digite uma quase igual: ")).split()
 indice = 0
